@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Choose a vehicle and preferred time for a demo test-drive request."><meta property="og:title" content="Request a Test Drive | AutoLux"><meta property="og:description" content="Send a test-drive request to AutoLux."><meta property="og:type" content="website">
+  <title>Request a Test Drive | AutoLux</title>
+  <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/global.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css"><script type="module" src="js/app.js"></script>
+</head>
+<body data-page="test-drive">
+  <div id="site-header"></div>
+  <main id="main-content" class="page-main" data-page-content>
+    <section class="page-banner"><div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Test drive</span></nav><h1>Request a Test Drive</h1><p>Choose a vehicle and let us know what time may work for you.</p></div></section>
+    <section class="section container"><div class="form-card form-card-narrow">
+      <p class="small muted">This form is a frontend demonstration. Submitting it does not send a request or confirm an appointment; a showroom representative must confirm any booking.</p>
+      <form id="test-drive-form">
+        <div class="form-grid">
+          <div class="field field-full"><label for="drive-vehicle">Vehicle</label><select class="form-control" id="drive-vehicle" name="vehicle" required><option value="">Choose a vehicle</option></select><p class="small" data-vehicle-status role="status" aria-live="polite">Loading vehicle options…</p></div>
+          <div class="field"><label for="drive-name">Name</label><input class="form-control" id="drive-name" name="name" autocomplete="name" required maxlength="100"></div>
+          <div class="field"><label for="drive-email">Email</label><input class="form-control" id="drive-email" name="email" type="email" autocomplete="email" required maxlength="254"></div>
+          <div class="field"><label for="drive-phone">Phone</label><input class="form-control" id="drive-phone" name="phone" type="tel" autocomplete="tel" required></div>
+          <div class="field"><label for="drive-date">Preferred date</label><input class="form-control" id="drive-date" name="date" type="date" required></div>
+          <div class="field"><label for="drive-time">Preferred time</label><input class="form-control" id="drive-time" name="time" type="time" required></div>
+        </div>
+        <div class="form-actions"><button class="button" type="submit">Validate request</button><a class="button button-secondary" href="cars.html">Browse cars</a></div>
+        <p class="form-message" data-form-message role="status" aria-live="polite" tabindex="-1" hidden></p>
+      </form>
+    </div></section>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

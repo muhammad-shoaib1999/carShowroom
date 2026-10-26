@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse and filter the AutoLux demonstration vehicle inventory.">
+  <meta property="og:title" content="Available Cars | AutoLux"><meta property="og:description" content="Search vehicle listings and compare your options with AutoLux."><meta property="og:type" content="website">
+  <title>Available Cars | AutoLux</title>
+  <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/global.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="cars">
+  <div id="site-header"></div>
+  <main id="main-content" class="page-main" data-page-content>
+    <!-- Inventory heading -->
+    <section class="page-banner"><div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Cars</span></nav><h1>Explore Our Cars</h1><p>Search available listings and compare the details that matter to you.</p></div></section>
+    <!-- Search and filter inventory -->
+    <section class="section container">
+      <div class="filter-layout">
+        <form class="filter-panel" id="inventory-filters">
+          <h2>Filter vehicles</h2>
+          <div class="field"><label for="filter-keyword">Keyword, make, or model</label><input class="form-control" id="filter-keyword" name="keyword" type="search"></div>
+          <div class="field"><label for="filter-brand">Brand</label><select class="form-control" id="filter-brand" name="brand"><option value="">All brands</option></select></div>
+          <div class="field"><label for="filter-min-price">Minimum price (PKR)</label><input class="form-control" id="filter-min-price" name="minPrice" type="number" min="0"></div>
+          <div class="field"><label for="filter-max-price">Maximum price (PKR)</label><input class="form-control" id="filter-max-price" name="maxPrice" type="number" min="0"></div>
+          <div class="field"><label for="filter-year">Year</label><select class="form-control" id="filter-year" name="year"><option value="">Any year</option></select></div>
+          <div class="field"><label for="filter-fuel">Fuel type</label><select class="form-control" id="filter-fuel" name="fuelType"><option value="">Any fuel</option></select></div>
+          <div class="field"><label for="filter-transmission">Transmission</label><select class="form-control" id="filter-transmission" name="transmission"><option value="">Any transmission</option></select></div>
+          <div class="field"><label for="filter-condition">Condition</label><select class="form-control" id="filter-condition" name="condition"><option value="">Any condition</option></select></div>
+          <div class="field"><label for="filter-sort">Sort by</label><select class="form-control" id="filter-sort" name="sort"><option value="">Recommended</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="year-desc">Year: newest year</option><option value="newest">Newest listings</option></select></div>
+          <div class="filter-actions"><button class="button button-small" type="submit">Apply filters</button><button class="button button-secondary button-small" type="reset">Clear all</button></div>
+          <p class="field-full small" data-filter-error role="alert" aria-live="polite"></p>
+        </form>
+        <div>
+          <div class="inventory-toolbar"><p id="result-count" aria-live="polite">Loading vehicles…</p><a class="button button-secondary button-small" href="compare.html">Compare selected</a></div>
+          <div class="card-grid inventory-grid" id="inventory-grid" aria-live="polite"><p class="status-message">Loading the vehicle inventory…</p></div>
+          <p class="form-actions form-actions-centered"><button class="button button-secondary" id="load-more" type="button" hidden>Load more vehicles</button></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

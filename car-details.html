@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="View vehicle specifications, save favorites, compare options, or request a test drive with AutoLux.">
+  <meta property="og:title" content="Vehicle Details | AutoLux"><meta property="og:description" content="Explore vehicle details and specifications with AutoLux."><meta property="og:type" content="product">
+  <title>Vehicle Details | AutoLux</title>
+  <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/global.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="details">
+  <div id="site-header"></div>
+  <main id="main-content" class="page-main" data-page-content>
+    <section class="page-banner"><div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><a href="cars.html">Cars</a><span aria-hidden="true">/</span><span aria-current="page">Vehicle details</span></nav><p>Vehicle information</p></div></section>
+    <!-- Vehicle data is rendered from the shared inventory JSON -->
+    <section class="section container" id="vehicle-details" aria-live="polite"><p class="status-message">Loading vehicle details…</p></section>
+    <section class="section section-muted" id="similar-cars-section"><div class="container"><div class="section-heading"><h2>Similar vehicles</h2><p>Other vehicles from the same manufacturer.</p></div><div class="card-grid" id="similar-cars"></div></div></section>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

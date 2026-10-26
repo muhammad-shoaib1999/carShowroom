@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore AutoLux demonstration vehicle listings, compare your options, and find your next drive.">
+  <meta property="og:title" content="AutoLux | Discover Your Next Car">
+  <meta property="og:description" content="Explore available vehicles and discover your next drive with AutoLux.">
+  <meta property="og:type" content="website">
+  <title>AutoLux | Discover Your Next Car</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+  <main id="main-content" class="page-main" data-page-content>
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <p class="eyebrow">Your next drive starts here</p>
+        <h1 id="hero-title">Find the Car That Moves You.</h1>
+        <p>Explore quality vehicles, compare your options, and discover your next drive with AutoLux.</p>
+        <div class="hero-actions"><a class="button" href="cars.html">Explore cars</a><a class="button button-secondary" href="test-drive.html">Request a test drive</a></div>
+      </div>
+    </section>
+    <!-- Inventory search -->
+    <section class="container" aria-label="Search vehicles">
+      <form class="search-panel" id="home-search">
+        <div class="field"><label for="home-keyword">Keyword or model</label><input class="form-control" id="home-keyword" name="keyword" type="search" placeholder="e.g. Corolla"></div>
+        <div class="field"><label for="home-brand">Brand</label><select class="form-control" id="home-brand" name="brand"><option value="">All brands</option></select></div>
+        <div class="field"><label for="home-min-price">Minimum price (PKR)</label><input class="form-control" id="home-min-price" name="minPrice" type="number" min="0" inputmode="numeric"></div>
+        <div class="field"><label for="home-max-price">Maximum price (PKR)</label><input class="form-control" id="home-max-price" name="maxPrice" type="number" min="0" inputmode="numeric"></div>
+        <div class="search-actions"><button class="button" type="submit">Search cars</button><button class="button button-secondary" type="reset" aria-label="Reset search">Reset</button></div>
+        <p class="field-full small" data-search-error role="alert" aria-live="polite"></p>
+      </form>
+    </section>
+    <!-- Featured cars -->
+    <section class="section container">
+      <div class="section-heading"><p class="eyebrow">Selected for you</p><h2>Featured Vehicles</h2><p>Explore a selection of vehicles worth a closer look.</p></div>
+      <div class="card-grid" id="featured-cars" aria-live="polite"><p class="status-message">Loading featured vehicles…</p></div>
+      <p class="form-actions form-actions-centered"><a class="button button-secondary" href="cars.html">View all cars</a></p>
+    </section>
+    <!-- Popular brands -->
+    <section class="section section-muted">
+      <div class="container"><div class="section-heading"><p class="eyebrow">Browse by make</p><h2>Explore Popular Brands</h2><p>Choose from the manufacturers represented in our current inventory.</p></div>
+      <div class="brand-grid" id="popular-brands" aria-live="polite"><p class="status-message">Loading available brands…</p></div></div>
+    </section>
+    <!-- Why AutoLux -->
+    <section class="section container">
+      <div class="section-heading"><p class="eyebrow">The AutoLux approach</p><h2>A clearer way to choose</h2><p>Useful details and simple tools to help you take the next step at your own pace.</p></div>
+      <div class="value-grid">
+        <article class="value-card"><span class="value-icon" aria-hidden="true">01</span><h3>Explore with clarity</h3><p>Review the vehicle details and specifications included with each listing.</p></article>
+        <article class="value-card"><span class="value-icon" aria-hidden="true">02</span><h3>Compare your options</h3><p>Save up to three vehicles to compare their listed details side by side.</p></article>
+        <article class="value-card"><span class="value-icon" aria-hidden="true">03</span><h3>Ask your questions</h3><p>Reach out to the showroom to verify availability and discuss a vehicle.</p></article>
+        <article class="value-card"><span class="value-icon" aria-hidden="true">04</span><h3>Request a visit</h3><p>Send a test-drive request and wait for a representative to confirm it.</p></article>
+      </div>
+    </section>
+    <!-- How it works -->
+    <section class="section section-muted">
+      <div class="container"><div class="section-heading"><p class="eyebrow">Your next steps</p><h2>How It Works</h2></div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-number">1</span><h3>Discover cars</h3><p>Browse the available inventory and narrow down your search.</p></article>
+        <article class="step-card"><span class="step-number">2</span><h3>Compare options</h3><p>Review specifications for the vehicles you have shortlisted.</p></article>
+        <article class="step-card"><span class="step-number">3</span><h3>Arrange a visit</h3><p>Contact the showroom or request a test drive for a preferred vehicle.</p></article>
+      </div></div>
+    </section>
+    <!-- Testimonials -->
+    <section class="section container">
+      <div class="section-heading"><p class="eyebrow">Demonstration content</p><h2>What Our Customers Say</h2><p>Sample testimonials are shown for layout demonstration and are not verified customer reviews.</p></div>
+      <div class="card-grid" id="testimonials" aria-live="polite"><p class="status-message">Loading demonstration testimonials…</p></div>
+    </section>
+    <!-- Closing CTA -->
+    <section class="section container"><div class="cta-band"><div><h2>Ready to Find Your Next Car?</h2><p>Explore our available vehicles or get in touch with the showroom to discuss your options.</p></div><div class="hero-actions"><a class="button" href="cars.html">Browse all cars</a><a class="button button-secondary" href="contact.html">Contact us</a></div></div></section>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

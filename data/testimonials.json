@@ -1,0 +1,5 @@
+[
+  {"name":"Demo customer","text":"The vehicle details were easy to compare, and the team answered my questions clearly.","rating":5,"vehicle":"Toyota Corolla Altis","isDemo":true},
+  {"name":"Demo customer","text":"I appreciated being able to shortlist a few options before arranging a visit.","rating":5,"vehicle":"Honda Civic Oriel","isDemo":true},
+  {"name":"Demo customer","text":"A straightforward browsing experience made finding the right category much easier.","rating":4,"vehicle":"Hyundai Tucson GLS","isDemo":true}
+]

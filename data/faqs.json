@@ -1,0 +1,7 @@
+[
+  {"question":"Are the vehicles listed online currently available?","answer":"Listings are demonstration data in this version of AutoLux. Contact the showroom to confirm availability and vehicle details."},
+  {"question":"Can I compare vehicles on the website?","answer":"Yes. Add up to three vehicles to comparison to review their listed specifications side by side."},
+  {"question":"How do I arrange a test drive?","answer":"Use the test-drive request form to select a vehicle and preferred time. This static demo does not send or confirm a booking; a showroom representative must confirm any appointment."},
+  {"question":"Are prices and vehicle specifications guaranteed?","answer":"No. The sample listings are for demonstration purposes. Verify pricing, condition, specifications, and availability directly with the showroom."},
+  {"question":"How do I save a vehicle?","answer":"Choose the heart-shaped Save button on a vehicle card or details page. Saved vehicles remain in this browser using local storage."}
+]

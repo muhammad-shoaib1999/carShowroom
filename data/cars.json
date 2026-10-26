@@ -1,0 +1,354 @@
+[
+  {
+    "id": "car-001",
+    "brand": "Toyota",
+    "model": "Corolla Altis",
+    "year": 2022,
+    "price": 7850000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 28500,
+    "engineCc": 1800,
+    "color": "Attitude Black",
+    "status": "Available",
+    "featured": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1623869675781-80aa31012a5a?auto=format&fit=crop&w=1200&q=85",
+        "alt": "Dark sedan parked outdoors"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=85",
+        "alt": "Modern sedan viewed from the front"
+      }
+    ],
+    "description": "A comfortable, well-equipped sedan suited to everyday city and highway driving. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Automatic climate control",
+      "Reverse camera",
+      "Keyless entry"
+    ],
+    "listedAt": "2026-10-23"
+  },
+  {
+    "id": "car-002",
+    "brand": "Honda",
+    "model": "Civic Oriel",
+    "year": 2021,
+    "price": 8200000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 34000,
+    "engineCc": 1500,
+    "color": "Lunar Silver",
+    "status": "Available",
+    "featured": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=85",
+        "alt": "Silver performance sedan on a road"
+      }
+    ],
+    "description": "A refined sedan with a responsive drive and a practical cabin. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Touchscreen display",
+      "Cruise control",
+      "Parking sensors"
+    ],
+    "listedAt": "2026-10-20"
+  },
+  {
+    "id": "car-003",
+    "brand": "Suzuki",
+    "model": "Swift GLX",
+    "year": 2023,
+    "price": 4650000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 12000,
+    "engineCc": 1200,
+    "color": "Solid White",
+    "status": "Available",
+    "featured": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=85",
+        "alt": "White sporty car in a studio"
+      }
+    ],
+    "description": "A compact hatchback for easy urban journeys. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "LED headlights",
+      "Apple CarPlay",
+      "Rear camera"
+    ],
+    "listedAt": "2026-10-18"
+  },
+  {
+    "id": "car-004",
+    "brand": "Hyundai",
+    "model": "Tucson GLS",
+    "year": 2022,
+    "price": 9500000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 26000,
+    "engineCc": 2000,
+    "color": "Deep Sea Blue",
+    "status": "Available",
+    "featured": true,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=85",
+        "alt": "Blue SUV parked in a scenic location"
+      }
+    ],
+    "description": "A versatile SUV offering a roomy interior for everyday use. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Panoramic roof",
+      "Drive modes",
+      "Blind-spot alert"
+    ],
+    "listedAt": "2026-10-15"
+  },
+  {
+    "id": "car-005",
+    "brand": "Kia",
+    "model": "Sportage AWD",
+    "year": 2021,
+    "price": 8900000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 41000,
+    "engineCc": 2000,
+    "color": "Gravity Grey",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=85",
+        "alt": "Modern SUV on a road"
+      }
+    ],
+    "description": "A practical SUV with a comfortable cabin and all-wheel-drive capability. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "All-wheel drive",
+      "Cruise control",
+      "Rear camera"
+    ],
+    "listedAt": "2026-10-12"
+  },
+  {
+    "id": "car-006",
+    "brand": "Toyota",
+    "model": "Yaris ATIV",
+    "year": 2023,
+    "price": 5200000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 9500,
+    "engineCc": 1500,
+    "color": "Super White",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=1200&q=85",
+        "alt": "White compact car in daylight"
+      }
+    ],
+    "description": "A compact sedan with efficient everyday usability. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Air conditioning",
+      "ABS brakes",
+      "Power windows"
+    ],
+    "listedAt": "2026-10-10"
+  },
+  {
+    "id": "car-007",
+    "brand": "Honda",
+    "model": "City Aspire",
+    "year": 2020,
+    "price": 6100000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 47500,
+    "engineCc": 1500,
+    "color": "Modern Steel",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=85",
+        "alt": "Silver four-door sedan"
+      }
+    ],
+    "description": "A spacious compact sedan for daily commutes. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Climate control",
+      "Power mirrors",
+      "Central locking"
+    ],
+    "listedAt": "2026-10-08"
+  },
+  {
+    "id": "car-008",
+    "brand": "BMW",
+    "model": "3 Series 330i",
+    "year": 2021,
+    "price": 17800000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 22000,
+    "engineCc": 2000,
+    "color": "Mineral White",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=85",
+        "alt": "White luxury sport sedan"
+      }
+    ],
+    "description": "A premium sport sedan with a driver-focused interior. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Leather seats",
+      "Navigation",
+      "Parking assistance"
+    ],
+    "listedAt": "2026-10-06"
+  },
+  {
+    "id": "car-009",
+    "brand": "Mercedes-Benz",
+    "model": "C-Class C200",
+    "year": 2020,
+    "price": 16500000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 36000,
+    "engineCc": 1500,
+    "color": "Obsidian Black",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=85",
+        "alt": "Black luxury sedan parked outdoors"
+      }
+    ],
+    "description": "A refined executive sedan with a quiet, comfortable cabin. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Ambient lighting",
+      "Sunroof",
+      "Driver assistance"
+    ],
+    "listedAt": "2026-10-04"
+  },
+  {
+    "id": "car-010",
+    "brand": "Audi",
+    "model": "A4 Premium",
+    "year": 2022,
+    "price": 15500000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 19000,
+    "engineCc": 2000,
+    "color": "Glacier White",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=85",
+        "alt": "White premium car on a city street"
+      }
+    ],
+    "description": "A modern premium sedan with clean styling and useful technology. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Virtual cockpit",
+      "LED lighting",
+      "Parking sensors"
+    ],
+    "listedAt": "2026-10-02"
+  },
+  {
+    "id": "car-011",
+    "brand": "Suzuki",
+    "model": "Alto VXL",
+    "year": 2022,
+    "price": 2850000,
+    "currency": "PKR",
+    "condition": "Used",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 18000,
+    "engineCc": 660,
+    "color": "Pearl Black",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=85",
+        "alt": "Compact hatchback parked by the roadside"
+      }
+    ],
+    "description": "A compact city car with a small footprint. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Power steering",
+      "Air conditioning",
+      "USB audio"
+    ],
+    "listedAt": "2026-10-01"
+  },
+  {
+    "id": "car-012",
+    "brand": "Kia",
+    "model": "Picanto AT",
+    "year": 2023,
+    "price": 3900000,
+    "currency": "PKR",
+    "condition": "New",
+    "fuelType": "Petrol",
+    "transmission": "Automatic",
+    "mileageKm": 0,
+    "engineCc": 1000,
+    "color": "Signal Red",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=85",
+        "alt": "Small hatchback in an urban setting"
+      }
+    ],
+    "description": "A new compact hatchback for convenient city driving. Demonstration listing; confirm details before purchase.",
+    "features": [
+      "Rear parking sensors",
+      "Bluetooth audio",
+      "Multiple airbags"
+    ],
+    "listedAt": "2026-09-29"
+  }
+]
