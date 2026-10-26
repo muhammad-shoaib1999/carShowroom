@@ -30,6 +30,9 @@
   .filter-panel { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 12px; }
   .filter-panel h2, .filter-actions { grid-column: 1 / -1; }
   .filter-panel .field { margin-bottom: 12px; }
+  .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .gallery-toolbar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gallery-count { grid-column: 1 / -1; margin: 0; text-align: left; }
   .detail-layout, .contact-layout, .about-split { grid-template-columns: 1fr; }
   .detail-panel { position: static; }
   .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; }
@@ -44,6 +47,11 @@
   .search-actions { grid-column: auto; }
   .search-actions .button { flex: 1; }
   .card-grid, .inventory-grid { grid-template-columns: 1fr; }
+  .gallery-grid, .gallery-toolbar { grid-template-columns: 1fr; }
+  .gallery-count { grid-column: auto; }
+  .gallery-dialog-bar { align-items: flex-start; flex-direction: column; }
+  .gallery-dialog-actions { width: 100%; }
+  .gallery-dialog-actions .button { flex: 1; }
   .brand-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .value-grid, .steps-grid { grid-template-columns: 1fr; }
   .filter-panel { grid-template-columns: 1fr; }

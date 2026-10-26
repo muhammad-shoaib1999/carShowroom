@@ -234,6 +234,73 @@
   align-items: center;
   gap: 9px;
 }
+.gallery-toolbar {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(200px, 280px) auto;
+  align-items: end;
+  gap: 14px;
+  margin-bottom: 24px;
+  padding: 18px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: var(--color-white);
+}
+.gallery-count {
+  margin: 0 0 11px;
+  color: var(--color-muted);
+  font-size: .9rem;
+  text-align: right;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.gallery-item {
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: var(--color-white);
+}
+.gallery-photo-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: var(--color-paper);
+  cursor: zoom-in;
+}
+.gallery-photo-button img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform .25s ease;
+}
+.gallery-photo-button:hover img { transform: scale(1.035); }
+.gallery-caption { padding: 14px 16px 16px; }
+.gallery-caption h2 { margin: 0 0 3px; font-size: 1.05rem; line-height: 1.35; }
+.gallery-caption p { margin: 0; color: var(--color-muted); font-size: .88rem; }
+.gallery-dialog {
+  width: min(1000px, calc(100% - 32px));
+  max-width: none;
+  max-height: calc(100% - 32px);
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-card);
+  background: var(--color-graphite);
+  color: var(--color-white);
+}
+.gallery-dialog::backdrop { background: rgb(10 12 14 / 82%); }
+.gallery-dialog-image { width: 100%; max-height: min(72vh, 760px); object-fit: contain; background: #101316; }
+.gallery-dialog-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 16px; }
+.gallery-dialog-caption { min-width: 0; margin: 0; color: #e7e9eb; }
+.gallery-dialog-actions { display: flex; flex: 0 0 auto; gap: 8px; }
+.gallery-dialog .button-secondary { border-color: #62686e; background: transparent; color: #fff; }
+.gallery-dialog .button-secondary:hover { background: #343a40; }
+.gallery-dialog[open] { animation: gallery-dialog-in .18s ease-out; }
+@keyframes gallery-dialog-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 .favorite-button {
   min-width: 42px;
   min-height: 42px;

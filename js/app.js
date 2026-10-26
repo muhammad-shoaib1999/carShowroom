@@ -22,6 +22,7 @@ async function loadComponent(selector, url, label) {
 const pageModules = {
   home: "./home.js",
   cars: "./cars.js",
+  gallery: "./gallery.js",
   details: "./car-details.js",
   favorites: "./favorites.js",
   compare: "./compare.js",

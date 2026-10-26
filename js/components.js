@@ -146,6 +146,7 @@ export function initializeHeader() {
   });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
+      if (document.querySelector("dialog[open]")) return;
       close();
       toggle.focus();
     }

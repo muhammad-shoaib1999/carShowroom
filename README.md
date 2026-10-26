@@ -14,10 +14,11 @@ No build step or package installation is required. Modern browsers with ES modul
 
 ## Features
 
-- Ten connected pages with a shared responsive header and footer.
+- Eleven connected pages with a shared responsive header and footer.
 - Search, multi-filter, sort, load-more, and URL-based inventory filtering.
 - JSON-backed sample inventory, featured cars, brands, testimonials, and FAQs.
 - Vehicle details and gallery, favorites, and comparison for up to three cars.
+- Inventory-backed vehicle photo gallery with brand and keyword filters.
 - Validated contact and test-drive demo forms.
 - Accessible mobile navigation, keyboard-operable FAQ, focus styles, and reduced-motion support.
 
@@ -33,7 +34,7 @@ css/         Design tokens and responsive shared styles
 data/        Demo cars, brands, FAQs, and testimonials
 js/          Shared services and page-specific ES modules
 assets/      Local project assets
-*.html       Ten page entry points
+*.html       Eleven page entry points
 PROJECT_PLAN.md
 ```
 
